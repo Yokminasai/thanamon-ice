@@ -5,7 +5,7 @@ import { GalleryGrid } from "@/components/sections/GalleryGrid";
 
 export const metadata: Metadata = {
   title: "แกลเลอรี่",
-  description: "ภาพผลิตภัณฑ์น้ำแข็งและการดำเนินงานของโรงงานน้ำแข็งธนมน มหาชัย สมุทรสาคร",
+  description: "ภาพผลิตภัณฑ์น้ำแข็งและการดำเนินงานของโรงน้ำแข็งธนมน มหาชัย สมุทรสาคร",
   alternates: { canonical: `${SITE.url}/gallery` },
 };
 

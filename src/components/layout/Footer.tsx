@@ -8,10 +8,10 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 border-b border-white/10 pb-12">
           {/* Brand */}
           <div>
-            <p className="text-white font-bold text-xl leading-snug">โรงงานน้ำแข็งธนมน</p>
+            <p className="text-white font-bold text-xl leading-snug">โรงน้ำแข็งธนมน</p>
             <p className="text-gold text-xs font-semibold tracking-widest uppercase mb-4">Thanamon Ice · มหาชัย</p>
             <p className="text-sm text-warm-300 leading-relaxed">
-              ผู้ผลิตและจัดจำหน่ายน้ำแข็งโม่ น้ำแข็งก้อน และน้ำแข็งยูนิต
+              ผู้จัดจำหน่ายน้ำแข็งโม่ น้ำแข็งก้อน และน้ำแข็งยูนิต
               สำหรับธุรกิจในพื้นที่มหาชัย สมุทรสาคร และปริมณฑล
             </p>
           </div>
@@ -70,7 +70,7 @@ export function Footer() {
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-warm-500">
           <p>© {new Date().getFullYear()} {SITE.name}. สงวนลิขสิทธิ์</p>
           <div className="flex gap-6">
-            <Link href="/factory-ice-mahachai" className="hover:text-gold transition-colors">โรงงานน้ำแข็งมหาชัย</Link>
+            <Link href="/factory-ice-mahachai" className="hover:text-gold transition-colors">โรงน้ำแข็งมหาชัย</Link>
             <Link href="/ice-mahachai" className="hover:text-gold transition-colors">น้ำแข็งมหาชัย</Link>
             <Link href="/ice-samut-sakhon" className="hover:text-gold transition-colors">น้ำแข็งสมุทรสาคร</Link>
           </div>

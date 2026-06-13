@@ -6,7 +6,7 @@ import { SectionHeader } from "@/components/ui/SectionHeader";
 
 export const metadata: Metadata = {
   title: "ผลิตภัณฑ์น้ำแข็ง",
-  description: "น้ำแข็งโม่ น้ำแข็งก้อน น้ำแข็งยูนิต คุณภาพสูง ผลิตโดยโรงงานน้ำแข็งธนมน มหาชัย สมุทรสาคร",
+  description: "น้ำแข็งโม่ น้ำแข็งก้อน น้ำแข็งยูนิต คุณภาพสูง จากโรงน้ำแข็งธนมน มหาชัย สมุทรสาคร",
   alternates: { canonical: `${SITE.url}/products` },
 };
 

@@ -6,8 +6,8 @@ export function Hero() {
     <section className="relative min-h-[85vh] flex items-center overflow-hidden bg-navy">
       <div className="absolute inset-0">
         <Image
-          src="/โรงงานน้ำแข็ง.png"
-          alt="โรงงานน้ำแข็งธนมน มหาชัย"
+          src="/โรงน้ำแข็ง.png"
+          alt="โรงน้ำแข็งธนมน มหาชัย"
           fill
           className="object-cover object-center opacity-50"
           priority
@@ -24,11 +24,11 @@ export function Hero() {
             Thanamon Ice · มหาชัย สมุทรสาคร
           </p>
           <h1 className="hero-line-2 text-4xl sm:text-5xl lg:text-display font-bold text-white leading-tight mb-6">
-            โรงงานน้ำแข็ง<br />
+            โรงน้ำแข็ง<br />
             <span className="text-gold">ธนมน มหาชัย</span>
           </h1>
           <p className="hero-line-3 text-warm-200 text-lg leading-relaxed max-w-2xl mb-10">
-            ผู้ผลิตและจัดจำหน่ายน้ำแข็งโม่ น้ำแข็งก้อน และน้ำแข็งยูนิต
+            ผู้จัดจำหน่ายน้ำแข็งโม่ น้ำแข็งก้อน และน้ำแข็งยูนิต
             พร้อมบริการจัดส่งสำหรับร้านอาหาร ร้านค้า ตลาดสด งานอีเว้นท์
             และธุรกิจในพื้นที่มหาชัย สมุทรสาคร และปริมณฑล
           </p>
@@ -44,7 +44,7 @@ export function Hero() {
             </a>
           </div>
           <div className="hero-line-5 mt-12 flex flex-wrap gap-6 text-sm text-warm-300">
-            {["เปิดทุกวัน 03:00–18:30 น.", "ผลิตและจัดส่งโดยตรง", "มีถังน้ำแข็งบริการ"].map((t) => (
+            {["เปิดทุกวัน 03:00–18:30 น.", "จัดส่งโดยตรง", "มีถังน้ำแข็งบริการ"].map((t) => (
               <span key={t} className="flex items-center gap-2">
                 <span className="w-1.5 h-1.5 rounded-full bg-gold inline-block" />
                 {t}

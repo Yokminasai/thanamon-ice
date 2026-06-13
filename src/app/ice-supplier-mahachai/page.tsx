@@ -5,7 +5,7 @@ import { SectionHeader } from "@/components/ui/SectionHeader";
 
 export const metadata: Metadata = {
   title: "ผู้จำหน่ายน้ำแข็งมหาชัย — B2B ราคาส่ง",
-  description: "ผู้จำหน่ายน้ำแข็งมหาชัย สำหรับธุรกิจ B2B โรงงานน้ำแข็งธนมน จำหน่ายน้ำแข็งโม่ น้ำแข็งก้อน ส่งทุกวัน รับปริมาณมาก โทร 061-161-9991",
+  description: "ผู้จำหน่ายน้ำแข็งมหาชัย สำหรับธุรกิจ B2B โรงน้ำแข็งธนมน จำหน่ายน้ำแข็งโม่ น้ำแข็งก้อน ส่งทุกวัน รับปริมาณมาก โทร 061-161-9991",
   keywords: ["ผู้จำหน่ายน้ำแข็งมหาชัย", "น้ำแข็งราคาส่ง", "น้ำแข็ง B2B มหาชัย"],
   alternates: { canonical: `${SITE.url}/ice-supplier-mahachai` },
 };
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 export default function IceSupplierMahachaiPage() {
   return (
     <>
-      <PageHero label="B2B Supplier · มหาชัย" title="ผู้จำหน่ายน้ำแข็งมหาชัย" description="โรงงานน้ำแข็งธนมน ผู้จำหน่ายน้ำแข็งสำหรับธุรกิจในมหาชัยและสมุทรสาคร รองรับปริมาณมาก ราคายุติธรรม ส่งตรงทุกวัน" />
+      <PageHero label="B2B Supplier · มหาชัย" title="ผู้จำหน่ายน้ำแข็งมหาชัย" description="โรงน้ำแข็งธนมน ผู้จำหน่ายน้ำแข็งสำหรับธุรกิจในมหาชัยและสมุทรสาคร รองรับปริมาณมาก ราคายุติธรรม ส่งตรงทุกวัน" />
 
       <section className="section-padding bg-white">
         <div className="container-content">
@@ -22,7 +22,7 @@ export default function IceSupplierMahachaiPage() {
             <div className="bg-warm-50 border border-warm-200 p-7">
               <h3 className="text-lg font-bold text-navy mb-4">ทำไมต้องเลือกธนมน?</h3>
               <ul className="space-y-3 text-sm text-warm-700">
-                {["ผลิตและจำหน่ายโดยตรง ไม่ผ่านคนกลาง","มีรถขนส่งของเราเอง ส่งตรงเวลา","มีถังน้ำแข็งบริการสำหรับลูกค้าประจำ","เปิดทุกวัน 03:00–18:30 น. ไม่มีวันหยุด","รับออเดอร์ล่วงหน้าได้"].map((item) => (
+                {["จำหน่ายโดยตรง ไม่ผ่านคนกลาง","มีรถขนส่งของเราเอง ส่งตรงเวลา","มีถังน้ำแข็งบริการสำหรับลูกค้าประจำ","เปิดทุกวัน 03:00–18:30 น. ไม่มีวันหยุด","รับออเดอร์ล่วงหน้าได้"].map((item) => (
                   <li key={item} className="flex items-start gap-3">
                     <span className="w-1.5 h-1.5 rounded-full bg-gold mt-2 shrink-0" />
                     {item}
@@ -66,7 +66,7 @@ export default function IceSupplierMahachaiPage() {
       <section className="bg-navy bg-texture-grid py-16">
         <div className="container-content text-center">
           <h2 className="text-2xl font-bold text-white mb-2">ติดต่อเพื่อสั่งซื้อและสอบถามราคา</h2>
-          <p className="text-warm-300 mb-8">โรงงานน้ำแข็งธนมน มหาชัย · {SITE.hours}</p>
+          <p className="text-warm-300 mb-8">โรงน้ำแข็งธนมน มหาชัย · {SITE.hours}</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href={`tel:${SITE.phoneRaw}`} className="btn-primary">โทร {SITE.phone}</a>
             <a href={SITE.lineUrl} target="_blank" rel="noopener noreferrer" className="btn-outline">LINE {SITE.line}</a>

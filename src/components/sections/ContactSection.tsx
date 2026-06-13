@@ -64,7 +64,7 @@ export function ContactSection() {
 
             {/* Business card — trust signal */}
             <div className="mt-6 relative aspect-[1.75] w-full max-w-sm overflow-hidden border border-warm-200">
-              <Image src="/นามบัตร.jpg" alt="นามบัตรโรงงานน้ำแข็งธนมน" fill className="object-cover" sizes="(max-width: 640px) 100vw, 384px" />
+              <Image src="/นามบัตร.jpg" alt="นามบัตรโรงน้ำแข็งธนมน" fill className="object-cover" sizes="(max-width: 640px) 100vw, 384px" />
             </div>
           </div>
 
@@ -78,7 +78,7 @@ export function ContactSection() {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="ที่ตั้งโรงงานน้ำแข็งธนมน มหาชัย"
+              title="ที่ตั้งโรงน้ำแข็งธนมน มหาชัย"
             />
             <div className="bg-white p-4 border-t border-warm-200">
               <p className="text-sm font-bold text-navy">{SITE.name}</p>

@@ -5,8 +5,8 @@ import { SectionHeader } from "@/components/ui/SectionHeader";
 
 export const metadata: Metadata = {
   title: "น้ำแข็งสมุทรสาคร — ส่งน้ำแข็งทั่วจังหวัด",
-  description: "น้ำแข็งสมุทรสาคร จาก ธนมน ผู้ผลิตน้ำแข็งโม่ น้ำแข็งก้อน น้ำแข็งยูนิต ส่งทั่วสมุทรสาคร ทุกวัน 03:00-18:30 โทร 061-161-9991",
-  keywords: ["น้ำแข็งสมุทรสาคร", "โรงงานน้ำแข็งสมุทรสาคร", "ส่งน้ำแข็งสมุทรสาคร"],
+  description: "น้ำแข็งสมุทรสาคร จาก ธนมน ผู้จำหน่ายน้ำแข็งโม่ น้ำแข็งก้อน น้ำแข็งยูนิต ส่งทั่วสมุทรสาคร ทุกวัน 03:00-18:30 โทร 061-161-9991",
+  keywords: ["น้ำแข็งสมุทรสาคร", "โรงน้ำแข็งสมุทรสาคร", "ส่งน้ำแข็งสมุทรสาคร"],
   alternates: { canonical: `${SITE.url}/ice-samut-sakhon` },
 };
 
@@ -17,7 +17,7 @@ export default function IceSamutSakhonPage() {
 
   return (
     <>
-      <PageHero label="น้ำแข็ง · สมุทรสาคร" title="น้ำแข็งสมุทรสาคร" description="ผู้ผลิตและจำหน่ายน้ำแข็งในจังหวัดสมุทรสาคร โรงงานน้ำแข็งธนมน ส่งน้ำแข็งโม่ น้ำแข็งก้อน น้ำแข็งยูนิต ครอบคลุมทุกอำเภอ" />
+      <PageHero label="น้ำแข็ง · สมุทรสาคร" title="น้ำแข็งสมุทรสาคร" description="ผู้จำหน่ายน้ำแข็งในจังหวัดสมุทรสาคร โรงน้ำแข็งธนมน ส่งน้ำแข็งโม่ น้ำแข็งก้อน น้ำแข็งยูนิต ครอบคลุมทุกอำเภอ" />
 
       <section className="section-padding bg-white">
         <div className="container-content">
@@ -50,7 +50,7 @@ export default function IceSamutSakhonPage() {
       <section className="bg-navy bg-texture-grid py-16">
         <div className="container-content text-center">
           <h2 className="text-2xl font-bold text-white mb-2">น้ำแข็งสมุทรสาคร — ธนมน</h2>
-          <p className="text-warm-300 mb-8">ผู้ผลิตโดยตรง · เปิดทุกวัน 03:00–18:30 น.</p>
+          <p className="text-warm-300 mb-8">แหล่งตรง · เปิดทุกวัน 03:00–18:30 น.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href={`tel:${SITE.phoneRaw}`} className="btn-primary">โทร {SITE.phone}</a>
             <a href={SITE.lineUrl} target="_blank" rel="noopener noreferrer" className="btn-outline">LINE {SITE.line}</a>

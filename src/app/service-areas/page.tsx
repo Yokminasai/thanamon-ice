@@ -4,7 +4,7 @@ import { PageHero } from "@/components/ui/PageHero";
 
 export const metadata: Metadata = {
   title: "พื้นที่ให้บริการ",
-  description: "โรงงานน้ำแข็งธนมนให้บริการจัดส่งน้ำแข็งในมหาชัย สมุทรสาคร กรุงเทพฯ นนทบุรี และปทุมธานี",
+  description: "โรงน้ำแข็งธนมนให้บริการจัดส่งน้ำแข็งในมหาชัย สมุทรสาคร กรุงเทพฯ นนทบุรี และปทุมธานี",
   alternates: { canonical: `${SITE.url}/service-areas` },
 };
 

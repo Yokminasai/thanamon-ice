@@ -17,11 +17,11 @@ const kanit = Kanit({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
   title: {
-    default: `${SITE.name} | ผู้ผลิตน้ำแข็งมหาชัย`,
+    default: `${SITE.name} | ผู้จำหน่ายน้ำแข็งมหาชัย`,
     template: `%s | ${SITE.nameEn}`,
   },
   description: SITE.description,
-  keywords: ["โรงงานน้ำแข็งมหาชัย", "โรงน้ำแข็งมหาชัย", "น้ำแข็งมหาชัย", "น้ำแข็งสมุทรสาคร", "น้ำแข็งโม่มหาชัย", "น้ำแข็งก้อนมหาชัย"],
+  keywords: ["โรงน้ำแข็งมหาชัย", "โรงน้ำแข็งมหาชัย", "น้ำแข็งมหาชัย", "น้ำแข็งสมุทรสาคร", "น้ำแข็งโม่มหาชัย", "น้ำแข็งก้อนมหาชัย"],
   authors: [{ name: SITE.name }],
   creator: SITE.name,
   openGraph: { siteName: SITE.name, locale: SITE.locale, type: "website" },

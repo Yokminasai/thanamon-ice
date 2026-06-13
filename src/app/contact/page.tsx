@@ -7,7 +7,7 @@ import { faqSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "ติดต่อเรา",
-  description: `ติดต่อโรงงานน้ำแข็งธนมน มหาชัย โทร ${SITE.phone} LINE ${SITE.line} เปิดทุกวัน ${SITE.hours}`,
+  description: `ติดต่อโรงน้ำแข็งธนมน มหาชัย โทร ${SITE.phone} LINE ${SITE.line} เปิดทุกวัน ${SITE.hours}`,
   alternates: { canonical: `${SITE.url}/contact` },
 };
 

@@ -12,7 +12,7 @@ import { FAQSection } from "@/components/sections/FAQSection";
 import { faqSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: `${SITE.name} | ผู้ผลิตน้ำแข็งโม่ น้ำแข็งก้อน มหาชัย สมุทรสาคร`,
+  title: `${SITE.name} | ผู้จำหน่ายน้ำแข็งโม่ น้ำแข็งก้อน มหาชัย สมุทรสาคร`,
   description: SITE.description,
   alternates: { canonical: SITE.url },
 };

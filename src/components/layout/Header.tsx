@@ -55,14 +55,14 @@ export function Header() {
         <Link href="/" className="flex items-center gap-3">
           <Image
             src="/โลโก้โรงน้ำแข็ง.jpg"
-            alt="โรงงานน้ำแข็งธนมน"
+            alt="โรงน้ำแข็งธนมน"
             width={44}
             height={44}
             className="rounded object-contain shrink-0"
             priority
           />
           <div className="flex flex-col leading-none">
-            <span className="text-white font-bold text-lg tracking-tight">โรงงานน้ำแข็งธนมน</span>
+            <span className="text-white font-bold text-lg tracking-tight">โรงน้ำแข็งธนมน</span>
             <span className="text-gold text-xs font-semibold tracking-widest uppercase">Thanamon Ice · มหาชัย</span>
           </div>
         </Link>

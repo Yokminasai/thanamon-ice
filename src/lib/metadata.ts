@@ -19,7 +19,7 @@ export function buildMetadata({
     title: fullTitle,
     description,
     keywords: [
-      "โรงงานน้ำแข็งมหาชัย",
+      "โรงน้ำแข็งมหาชัย",
       "โรงน้ำแข็งมหาชัย",
       "น้ำแข็งมหาชัย",
       "น้ำแข็งสมุทรสาคร",

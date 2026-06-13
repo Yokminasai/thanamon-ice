@@ -1,6 +1,6 @@
 const TRUST_ITEMS = [
   {
-    title: "ผลิตและจัดจำหน่ายโดยตรง",
+    title: "จัดจำหน่ายโดยตรง",
     desc: "จากโรงงานถึงมือลูกค้า ไม่ผ่านคนกลาง",
     icon: (
       <svg className="w-7 h-7 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>

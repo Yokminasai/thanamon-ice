@@ -2,26 +2,26 @@ import Image from "next/image";
 
 // All 21 real factory photos — every 3rd is tall for masonry rhythm
 const PHOTOS: { src: string; alt: string; tall: boolean }[] = [
-  { src: "/รูปในโรงงาน (1).jpg",  alt: "โรงงานน้ำแข็งธนมน มหาชัย",  tall: true  },
-  { src: "/รูปในโรงงาน (2).jpg",  alt: "การผลิตน้ำแข็งโม่",          tall: false },
-  { src: "/รูปในโรงงาน (3).jpg",  alt: "เครื่องจักรผลิตน้ำแข็ง",    tall: false },
+  { src: "/รูปในโรงงาน (1).jpg",  alt: "โรงน้ำแข็งธนมน มหาชัย",  tall: true  },
+  { src: "/รูปในโรงงาน (2).jpg",  alt: "การจำหน่ายน้ำแข็งโม่",          tall: false },
+  { src: "/รูปในโรงงาน (3).jpg",  alt: "เครื่องจักรจำหน่ายน้ำแข็ง",    tall: false },
   { src: "/รูปในโรงงาน (4).jpg",  alt: "น้ำแข็งก้อนคุณภาพสูง",      tall: true  },
-  { src: "/รูปในโรงงาน (5).jpg",  alt: "กระบวนการผลิต",              tall: false },
+  { src: "/รูปในโรงงาน (5).jpg",  alt: "การดำเนินงาน",              tall: false },
   { src: "/รูปในโรงงาน (6).jpg",  alt: "น้ำแข็งโม่พร้อมส่ง",        tall: false },
   { src: "/รูปในโรงงาน (7).jpg",  alt: "โกดังเก็บน้ำแข็ง",          tall: true  },
   { src: "/รูปในโรงงาน (8).jpg",  alt: "ถังน้ำแข็งบริการ",           tall: false },
   { src: "/รูปในโรงงาน (9).jpg",  alt: "น้ำแข็งยูนิตสดใหม่",        tall: false },
-  { src: "/รูปในโรงงาน (10).jpg", alt: "สายการผลิตน้ำแข็ง",          tall: true  },
+  { src: "/รูปในโรงงาน (10).jpg", alt: "สายการจำหน่ายน้ำแข็ง",          tall: true  },
   { src: "/รูปในโรงงาน (11).jpg", alt: "น้ำแข็งออกจากแม่พิมพ์",      tall: false },
   { src: "/รูปในโรงงาน (12).jpg", alt: "คลังสินค้าน้ำแข็ง",          tall: false },
   { src: "/รูปในโรงงาน (13).jpg", alt: "เครื่องบดน้ำแข็ง",           tall: true  },
   { src: "/รูปในโรงงาน (14).jpg", alt: "บรรจุถุงน้ำแข็ง",            tall: false },
   { src: "/รูปในโรงงาน (15).jpg", alt: "น้ำแข็งพร้อมจัดส่ง",         tall: false },
-  { src: "/รูปในโรงงาน (16).jpg", alt: "ทีมงานโรงงานน้ำแข็ง",        tall: true  },
+  { src: "/รูปในโรงงาน (16).jpg", alt: "ทีมงานโรงน้ำแข็ง",        tall: true  },
   { src: "/รูปในโรงงาน (17).jpg", alt: "รถขนส่งน้ำแข็งธนมน",         tall: false },
   { src: "/รูปในโรงงาน (18).jpg", alt: "การจัดส่งน้ำแข็ง",           tall: false },
   { src: "/รูปในโรงงาน (19).jpg", alt: "น้ำแข็งสดก่อนส่ง",          tall: true  },
-  { src: "/รูปในโรงงาน (20).jpg", alt: "ภายในโรงงานน้ำแข็ง",         tall: false },
+  { src: "/รูปในโรงงาน (20).jpg", alt: "ภายในโรงน้ำแข็ง",         tall: false },
   { src: "/รูปในโรงงาน (21).jpg", alt: "ผลิตภัณฑ์น้ำแข็งธนมน",       tall: false },
 ];
 

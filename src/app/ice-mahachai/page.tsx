@@ -5,7 +5,7 @@ import { SectionHeader } from "@/components/ui/SectionHeader";
 
 export const metadata: Metadata = {
   title: "น้ำแข็งมหาชัย — สั่งซื้อน้ำแข็งโม่ น้ำแข็งก้อน ส่งถึงที่",
-  description: "น้ำแข็งมหาชัย จาก ธนมน ผู้ผลิตน้ำแข็งโม่ น้ำแข็งก้อน น้ำแข็งยูนิต ในมหาชัย ส่งทุกวัน 03:00-18:30 โทร 061-161-9991",
+  description: "น้ำแข็งมหาชัย จาก ธนมน ผู้จำหน่ายน้ำแข็งโม่ น้ำแข็งก้อน น้ำแข็งยูนิต ในมหาชัย ส่งทุกวัน 03:00-18:30 โทร 061-161-9991",
   keywords: ["น้ำแข็งมหาชัย", "สั่งน้ำแข็งมหาชัย", "น้ำแข็งโม่มหาชัย", "ส่งน้ำแข็งมหาชัย"],
   alternates: { canonical: `${SITE.url}/ice-mahachai` },
 };
@@ -13,11 +13,11 @@ export const metadata: Metadata = {
 export default function IceMahachaiPage() {
   return (
     <>
-      <PageHero label="น้ำแข็ง · มหาชัย" title="น้ำแข็งมหาชัย" description="สั่งน้ำแข็งโม่ น้ำแข็งก้อน น้ำแข็งยูนิต ในพื้นที่มหาชัย จากผู้ผลิตโดยตรง ส่งถึงที่ทุกวัน" />
+      <PageHero label="น้ำแข็ง · มหาชัย" title="น้ำแข็งมหาชัย" description="สั่งน้ำแข็งโม่ น้ำแข็งก้อน น้ำแข็งยูนิต ในพื้นที่มหาชัย จากแหล่งตรง ส่งถึงที่ทุกวัน" />
 
       <section className="section-padding bg-white">
         <div className="container-content">
-          <SectionHeader label="บริการน้ำแข็งมหาชัย" title="ซื้อน้ำแข็งในมหาชัย ราคาจากโรงงาน" subtitle="ไม่ต้องผ่านคนกลาง สั่งตรงจากผู้ผลิต ราคายุติธรรม คุณภาพเชื่อถือได้" />
+          <SectionHeader label="บริการน้ำแข็งมหาชัย" title="ซื้อน้ำแข็งในมหาชัย ราคาตรงจากโรง" subtitle="ไม่ต้องผ่านคนกลาง สั่งตรง ราคายุติธรรม คุณภาพเชื่อถือได้" />
           <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
               { title: "น้ำแข็งโม่", desc: "น้ำแข็งบดละเอียด เหมาะร้านอาหารและเครื่องดื่ม" },
@@ -51,7 +51,7 @@ export default function IceMahachaiPage() {
       <section className="bg-navy bg-texture-grid py-16">
         <div className="container-content text-center">
           <h2 className="text-2xl font-bold text-white mb-2">สั่งน้ำแข็งมหาชัยวันนี้</h2>
-          <p className="text-warm-300 mb-8">โรงงานน้ำแข็งธนมน · เปิดทุกวัน 03:00–18:30 น.</p>
+          <p className="text-warm-300 mb-8">โรงน้ำแข็งธนมน · เปิดทุกวัน 03:00–18:30 น.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href={`tel:${SITE.phoneRaw}`} className="btn-primary">โทร {SITE.phone}</a>
             <a href={SITE.lineUrl} target="_blank" rel="noopener noreferrer" className="btn-outline">LINE {SITE.line}</a>
