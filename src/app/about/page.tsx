@@ -41,10 +41,10 @@ export default function AboutPage() {
                 <p>ด้วยรถขนส่งและถังน้ำแข็งของเราเอง เราสามารถส่งน้ำแข็งถึงหน้าร้านของลูกค้าได้ตรงเวลา ทุกวัน ไม่มีวันหยุด ตั้งแต่ 03:00 น.</p>
               </div>
             </div>
-            <div className="relative h-72 md:h-80 lg:h-96 overflow-hidden border border-warm-200">
+            <div className="relative h-72 md:h-80 lg:h-96 overflow-hidden border border-warm-200 bg-warm-100">
               <Image
                 src="/โรงงานรูปด้านหน้า.png"
-                alt="โรงน้ำแข็งธนมน มหาชัย — ด้านหน้าโรงงาน" fill className="object-cover"
+                alt="โรงน้ำแข็งธนมน มหาชัย — ด้านหน้าโรงงาน" fill className="object-contain"
                 sizes="(max-width: 1024px) 100vw, 50vw"
               />
               <div className="absolute bottom-0 left-0 right-0 h-1 bg-gold" />
