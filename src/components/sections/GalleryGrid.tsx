@@ -2,8 +2,8 @@ import Image from "next/image";
 
 // All 21 real factory photos — every 3rd is tall for masonry rhythm
 const PHOTOS: { src: string; alt: string; tall: boolean }[] = [
-  { src: "/รูปในโรงงาน (1).jpg",  alt: "โรงน้ำแข็งธนมน มหาชัย",  tall: true  },
-  { src: "/รูปในโรงงาน (2).jpg",  alt: "การจำหน่ายน้ำแข็งโม่",          tall: false },
+  { src: "/โรงงานรูปด้านหน้า.png", alt: "โรงน้ำแข็งธนมน มหาชัย ด้านหน้า", tall: true  },
+  { src: "/รูปโรงงานตอนเย็นๆ.png", alt: "โรงน้ำแข็งธนมน มหาชัย ยามเย็น",  tall: false },
   { src: "/รูปในโรงงาน (3).jpg",  alt: "เครื่องจักรจำหน่ายน้ำแข็ง",    tall: false },
   { src: "/รูปในโรงงาน (4).jpg",  alt: "น้ำแข็งก้อนคุณภาพสูง",      tall: true  },
   { src: "/รูปในโรงงาน (5).jpg",  alt: "การดำเนินงาน",              tall: false },
