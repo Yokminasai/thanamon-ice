@@ -20,18 +20,43 @@ export function Hero() {
 
       <div className="relative container-content w-full py-24">
         <div className="max-w-3xl">
-          <p className="hero-line-1 text-gold text-sm font-bold uppercase tracking-widest mb-4">
-            Thanamon Ice · มหาชัย สมุทรสาคร
+          <p className="hero-line-1 text-gold text-xs sm:text-sm font-bold uppercase tracking-[0.2em] mb-4">
+            Thanamon Ice
           </p>
           <h1 className="hero-line-2 text-4xl sm:text-5xl lg:text-display font-bold text-white leading-tight mb-6">
             โรงน้ำแข็ง<br />
             <span className="text-gold">ธนมน มหาชัย</span>
           </h1>
-          <p className="hero-line-3 text-warm-200 text-lg leading-relaxed max-w-2xl mb-10">
+          <p className="hero-line-3 text-warm-200 text-lg leading-relaxed max-w-2xl mb-7">
             ผู้จัดจำหน่ายน้ำแข็งโม่ น้ำแข็งก้อน และน้ำแข็งยูนิต
-            พร้อมบริการจัดส่งสำหรับร้านอาหาร ร้านค้า ตลาดสด งานอีเว้นท์
-            และธุรกิจในพื้นที่มหาชัย สมุทรสาคร และปริมณฑล
+            พร้อมบริการจัดส่งสำหรับร้านอาหาร ร้านค้า ตลาดสด และงานอีเว้นท์
           </p>
+
+          {/* Service area emphasis */}
+          <div className="hero-line-3 mb-10">
+            <p className="flex items-center gap-2 text-warm-300 text-xs font-bold uppercase tracking-[0.18em] mb-3">
+              <svg className="w-4 h-4 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+              </svg>
+              พื้นที่จัดส่ง
+            </p>
+            <div className="flex flex-wrap gap-2">
+              {["มหาชัย", "สมุทรสาคร", "นนทบุรี", "ปทุมธานี", "กรุงเทพ"].map((area, i) => (
+                <span
+                  key={area}
+                  className={`inline-flex items-center px-3.5 py-1.5 text-sm font-semibold border ${
+                    i < 2
+                      ? "bg-gold text-navy border-gold"
+                      : "text-warm-100 border-white/30"
+                  }`}
+                >
+                  {area}
+                </span>
+              ))}
+            </div>
+          </div>
+
           <div className="hero-line-4 flex flex-col sm:flex-row gap-4">
             <a href={`tel:${SITE.phoneRaw}`} className="btn-primary text-lg px-10 py-5">
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

@@ -63,7 +63,7 @@ export function Header() {
           />
           <div className="flex flex-col leading-none">
             <span className="text-white font-bold text-lg tracking-tight">โรงน้ำแข็งธนมน</span>
-            <span className="text-gold text-xs font-semibold tracking-widest uppercase">Thanamon Ice · มหาชัย</span>
+            <span className="text-gold text-xs font-semibold tracking-widest uppercase">Thanamon Ice</span>
           </div>
         </Link>
 
