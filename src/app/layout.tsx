@@ -26,6 +26,9 @@ export const metadata: Metadata = {
   creator: SITE.name,
   openGraph: { siteName: SITE.name, locale: SITE.locale, type: "website" },
   robots: { index: true, follow: true },
+  verification: {
+    google: "d9gdpBVUOlCJBXUPVAl-i3AOF7dFcNAFXnOb6mPWSQ4",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
