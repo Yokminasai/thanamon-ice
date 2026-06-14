@@ -25,7 +25,7 @@ export function Hero() {
           </p>
           <h1 className="hero-line-2 text-4xl sm:text-5xl lg:text-display font-bold text-white leading-tight mb-6">
             โรงน้ำแข็ง<br />
-            <span className="text-gold">ธนมน มหาชัย</span>
+            <span className="text-gold">ธนมน</span>
           </h1>
           <p className="hero-line-3 text-warm-200 text-lg leading-relaxed max-w-2xl mb-7">
             ผู้จัดจำหน่ายน้ำแข็งโม่ น้ำแข็งก้อน และน้ำแข็งยูนิต
