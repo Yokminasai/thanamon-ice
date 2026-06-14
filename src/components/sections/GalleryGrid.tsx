@@ -1,9 +1,10 @@
 import Image from "next/image";
 
-// All 21 real factory photos — every 3rd is tall for masonry rhythm
-const PHOTOS: { src: string; alt: string; tall: boolean }[] = [
-  { src: "/โรงงานรูปด้านหน้า.png", alt: "โรงน้ำแข็งธนมน มหาชัย ด้านหน้า", tall: true  },
-  { src: "/รูปโรงงานตอนเย็นๆ.png", alt: "โรงน้ำแข็งธนมน มหาชัย ยามเย็น",  tall: false },
+// All real factory photos — every 3rd is tall for masonry rhythm.
+// `contain: true` shows the full image without cropping (natural aspect ratio).
+const PHOTOS: { src: string; alt: string; tall: boolean; contain?: boolean }[] = [
+  { src: "/โรงงานรูปด้านหน้า.png", alt: "โรงน้ำแข็งธนมน มหาชัย ด้านหน้า", tall: true, contain: true },
+  { src: "/รูปโรงงานตอนเย็นๆ.png", alt: "โรงน้ำแข็งธนมน มหาชัย ยามเย็น",  tall: false, contain: true },
   { src: "/รูปในโรงงาน (3).jpg",  alt: "เครื่องจักรจำหน่ายน้ำแข็ง",    tall: false },
   { src: "/รูปในโรงงาน (5).jpg",  alt: "การดำเนินงาน",              tall: false },
   { src: "/รูปในโรงงาน (6).jpg",  alt: "น้ำแข็งโม่พร้อมส่ง",        tall: false },
@@ -36,13 +37,13 @@ export function GalleryGrid() {
           {PHOTOS.map((img) => (
             <div
               key={img.src}
-              className={`relative overflow-hidden break-inside-avoid ${img.tall ? "aspect-[3/4]" : "aspect-[4/3]"}`}
+              className={`relative overflow-hidden break-inside-avoid ${img.tall ? "aspect-[3/4]" : "aspect-[4/3]"} ${img.contain ? "bg-navy" : ""}`}
             >
               <Image
                 src={img.src}
                 alt={img.alt}
                 fill
-                className="object-cover hover:scale-105 transition-transform duration-500"
+                className={`${img.contain ? "object-contain" : "object-cover hover:scale-105"} transition-transform duration-500`}
                 sizes="(max-width: 768px) 50vw, 33vw"
               />
             </div>
