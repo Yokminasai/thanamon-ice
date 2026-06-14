@@ -26,10 +26,6 @@ export const metadata: Metadata = {
   creator: SITE.name,
   openGraph: { siteName: SITE.name, locale: SITE.locale, type: "website" },
   robots: { index: true, follow: true },
-  icons: {
-    icon: "/favicon.svg",
-    shortcut: "/favicon.svg",
-  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
