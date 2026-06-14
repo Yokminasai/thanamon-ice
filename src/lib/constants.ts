@@ -15,7 +15,7 @@ export const SITE = {
   addressFull: "โรงน้ำแข็งธนมน มหาชัย, สมุทรสาคร 74000",
   lat: 13.5494,
   lng: 100.2747,
-  url: "https://www.thanamonice.com",
+  url: "https://thanamon-ice.vercel.app",
   locale: "th_TH",
 };
 
