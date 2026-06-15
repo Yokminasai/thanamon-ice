@@ -13,8 +13,8 @@ export const SITE = {
   hoursClose: "18:30",
   address: "มหาชัย สมุทรสาคร",
   addressFull: "โรงน้ำแข็งธนมน มหาชัย, สมุทรสาคร 74000",
-  lat: 13.5494,
-  lng: 100.2747,
+  lat: 13.5536213,
+  lng: 100.2839357,
   url: "https://thanamon-ice.vercel.app",
   locale: "th_TH",
 };
